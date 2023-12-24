@@ -1,15 +1,36 @@
 .root {
-  font-family: TAN Pearl;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
+.hero {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 524px;
+  background: rgba(255, 255, 255, 0);
+}
 h1 {
-  font-family: YAEbllOU62c 0;
-  font-weight: 400;
-  font-style: normal;
-}
-.hero-1 p {
-  font-family: Glacial Indifference;
+  font-family: Inter;
+  font-size: 44px;
+  font-weight: bold;
+  text-align: right;
+  line-height: 48.400001049042px;
+  color: #0c0d15;
 }
 p {
-  font-family: Glacial Indifference;
+  max-width: 100%;
+  font-family: Inter;
+  font-size: 24px;
+  line-height: 36px;
+  color: #56565f;
+}
+a {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 27px;
+  color: #0c0d15;
 }
