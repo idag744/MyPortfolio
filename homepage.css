@@ -1,12 +1,12 @@
 .root {
   font-family: Arial, Helvetica, sans-serif;
+  background: rgba(255, 255, 255, 0);
 }
 .hero {
-  top: 0px;
-  left: 0px;
-  width: 1440px;
-  height: 524px;
-  background: rgba(255, 255, 255, 0);
+  padding-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  display: center;
 }
 h1 {
   font-family: "Tenor Sans", sans-serif;
