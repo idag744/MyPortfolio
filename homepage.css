@@ -9,28 +9,32 @@
   background: rgba(255, 255, 255, 0);
 }
 h1 {
-  font-family: Inter;
-  font-size: 44px;
-  font-weight: bold;
+  font-family: "Tenor Sans", sans-serif;
+
+  font-size: 58px;
+
   text-align: right;
-  line-height: 48.400001049042px;
+
   color: #0c0d15;
 }
 p {
   max-width: 100%;
-  font-family: Inter;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   line-height: 36px;
   color: #56565f;
 }
 a {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  font-family: Inter;
+  font-family: "Marcellus", serif;
   font-size: 18px;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   line-height: 27px;
   color: #0c0d15;
+}
+.button {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+  border-radius: 10px;
 }
