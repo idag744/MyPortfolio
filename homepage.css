@@ -11,7 +11,16 @@
 h1 {
   font-family: "Tenor Sans", sans-serif;
 
-  font-size: 58px;
+  font-size: 48pt;
+
+  text-align: right;
+
+  color: #0c0d15;
+}
+h2 {
+  font-family: "Tenor Sans", sans-serif;
+
+  font-size: 36pt;
 
   text-align: right;
 
@@ -20,13 +29,13 @@ h1 {
 p {
   max-width: 100%;
   font-family: "Marcellus", serif;
-  font-size: 24px;
+  font-size: 18pt;
   line-height: 36px;
   color: #56565f;
 }
 a {
   font-family: "Marcellus", serif;
-  font-size: 18px;
+  font-size: 18pt;
   font-weight: bold;
   text-align: center;
   line-height: 27px;
