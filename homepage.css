@@ -30,8 +30,9 @@ p {
   max-width: 100%;
   font-family: "Marcellus", serif;
   font-size: 18pt;
-  line-height: 36px;
   color: #56565f;
+  text-align: left;
+  text-align: justify;
 }
 a {
   font-family: "Marcellus", serif;
