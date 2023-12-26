@@ -3,10 +3,10 @@
   background: rgba(255, 255, 255, 0);
 }
 .hero {
-  padding-top: 50px;
+  padding: 160 200 px;
+  margin-top: 100px;
   margin-left: 200px;
   margin-right: 200px;
-  display: center;
 }
 h1 {
   font-family: "Tenor Sans", sans-serif;
@@ -25,6 +25,7 @@ h2 {
   text-align: right;
 
   color: #0c0d15;
+  padding-top: 20px;
 }
 p {
   max-width: 100%;
@@ -47,4 +48,30 @@ a {
   margin: 0 auto;
   max-width: 150px;
   border-radius: 10px;
+}
+.about-project {
+  margin-left: 200px;
+  margin-top: 100px;
+  font-size: 14pt;
+
+  font-family: "Marcellus", serif;
+
+  color: #56565f;
+  text-align: justify;
+  max-width: 360px;
+}
+video {
+  margin-bottom: 50px;
+  max-height: 75%;
+}
+.launch-button {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.container {
+  margin-left: 200px;
+  margin-right: 200px;
 }
