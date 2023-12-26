@@ -19,10 +19,10 @@ h1 {
 }
 h2 {
   font-family: "Tenor Sans", sans-serif;
-
+  margin-top: 50px;
   font-size: 36pt;
 
-  text-align: right;
+  text-align: left;
 
   color: #0c0d15;
   padding-top: 20px;
@@ -50,8 +50,7 @@ a {
   border-radius: 10px;
 }
 .about-project {
-  margin-left: 200px;
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 14pt;
 
   font-family: "Marcellus", serif;
@@ -63,6 +62,7 @@ a {
 video {
   margin-bottom: 50px;
   max-height: 75%;
+  margin-left: 100px;
 }
 .launch-button {
   display: block;
@@ -71,7 +71,8 @@ video {
   border-radius: 10px;
   margin-top: 50px;
 }
-.container {
+
+.content {
   margin-left: 200px;
   margin-right: 200px;
 }
