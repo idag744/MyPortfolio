@@ -3,10 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <meta charset="UTF-8" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="work.css" />
+    <link rel="stylesheet" href="homepage.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,7 +24,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <title>MyPortfolio</title>
-    <link rel="stylesheet" href="homepage.css" />
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -70,94 +68,61 @@
       </div>
     </nav>
     <div class="row">
-      <div class="col-sm-6" class="content">
-        <div class="row">
-          <div class="col-sm-6">
-            <h2>Project 01</h2>
-            <p class="about-project">
-              iTutor was done through a TeamWork in Apple Developer Academy. My
-              team-mates and I went through a journey of Market Research,
-              Desgin, Test and Iterations. Finally, we developed the app with
-              Swift language and despite the strict timing of 1 month, we are
-              happy about the result.
-            </p>
+      <div class="col-sm-6" class="content-project" style="max-width: 50%">
+        <video width="180px" controls id="myVideo">
+          <source
+            src="E:\AidaCodes\MyPortfolio\videos\prototype_zXWK2Wuv (1).mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <h2>iTutor</h2>
+        <p class="about-project"></p>
 
-            <a
-              class="launch-button btn btn-primary"
-              href="work.html"
-              id="projectOne"
-              >View iTutor</a
-            >
-          </div>
-
-          <div class="col-sm-6">
-            <video width="360px" controls id="myVideo">
-              <source
-                src="E:\AidaCodes\MyPortfolio\videos\prototype_zXWK2Wuv (1).mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
+        <a
+          class="launch-button btn btn-primary"
+          href="work.html"
+          id="projectOne"
+          >Launch iTutor</a
+        >
       </div>
 
-      <div class="col-sm-6" class="content">
-        <div class="row">
-          <div class="col-sm-6">
-            <img
-              src="E:\AidaCodes\MyPortfolio\images\Start.png"
-              alt="easy-move-image"
-              class="img-fluid rounded-5"
-              style="max-height: 75%"
-            />
-          </div>
-          <div class="col-sm-6">
-            <h2 class="text-center">Project 02</h2>
-            <p class="about-project">
-              EasyMove is an App that my team-mates and I designed for students
-              who need help with carrying their stuff in moving from one house
-              to another. The App offers different services which the main one
-              is to hire a helper who has owns a viehcle such as a car for
-              carrying and installation of the stuff.
-            </p>
+      <div class="col-sm-6" class="content-project">
+        <img
+          src="E:\AidaCodes\MyPortfolio\images\Start.png"
+          alt="easy-move-image"
+          class="img-fluid rounded-5"
+          style="max-height: 50%"
+        />
 
-            <a
-              class="launch-button btn btn-primary"
-              href="work.html"
-              id="projectTwo"
-              >View EasyMove</a
-            >
-          </div>
-        </div>
+        <h2 class="text-center">Easy Move</h2>
+        <p class="about-project"></p>
+
+        <a
+          class="launch-button btn btn-primary"
+          href="work.html"
+          id="projectTwo"
+          >Launch EasyMove</a
+        >
       </div>
     </div>
-    <div class="content">
+
+    <div class="content-project">
       <div class="row">
-        <div class="col-sm-6">
-          <h2>Project 03</h2>
-          <p class="about-project">
-            I built a Vanilla JavaScript weather app in SheCodes Plus, an
-            advanced 8-week JavaScript coding workshop. Building upon my
-            previously-gained knowledge, I also became skilled in Bootstrap,
-            API’s, real-life development workflow, hosting, and advanced
-            JavaScript. I combined all of these skills to create a
-            fully-functioning weather app.
-          </p>
-
-          <a
-            class="launch-button btn btn-primary"
-            href="work.html"
-            id="projectThree"
-            >View WeatherApp</a
-          >
-        </div>
-
         <div class="col-sm-6">
           <img
             src="E:\AidaCodes\MyPortfolio\images\wheather-app-imgpng.PNG"
             alt=""
           />
+          <h2>Weather App</h2>
+          <p class="about-project"></p>
+
+          <a
+            class="launch-button btn btn-primary"
+            href="work.html"
+            id="projectThree"
+            >Lauch WeatherApp</a
+          >
         </div>
       </div>
     </div>

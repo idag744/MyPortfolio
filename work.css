@@ -1,0 +1,24 @@
+h2 {
+  font-family: "Tenor Sans", sans-serif;
+  margin-top: 50px;
+  font-size: 36pt;
+
+  text-align: left;
+
+  color: #0c0d15;
+  padding-top: 20px;
+}
+.about-project {
+  margin-top: 50px;
+  font-size: 14pt;
+
+  font-family: "Marcellus", serif;
+
+  color: #56565f;
+  text-align: justify;
+  max-width: 360px;
+}
+
+.content-project {
+  max-width: 100px;
+}
