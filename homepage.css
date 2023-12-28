@@ -76,3 +76,37 @@ video {
   margin-left: 200px;
   margin-right: 200px;
 }
+.footer {
+  background-color: #dfdfec;
+  border-radius: 25px;
+  padding: 100px;
+  padding-bottom: 200px;
+  padding-left: 200px;
+  margin-top: 150px;
+
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+.button-footer {
+  margin-top: 25px;
+  margin-left: 50px;
+}
+h3 {
+  text-align: left;
+}
+.title-footer {
+  text-align: left;
+}
+.email {
+  margin-top: 100px;
+  margin-left: 250px;
+  text-align: center;
+}
+.social-media {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 50%;
+  margin-left: 175px;
+}

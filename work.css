@@ -1,3 +1,12 @@
+h1 {
+  font-family: "Tenor Sans", sans-serif;
+
+  font-size: 48pt;
+
+  text-align: right;
+
+  color: #0c0d15;
+}
 h2 {
   font-family: "Tenor Sans", sans-serif;
   margin-top: 50px;
@@ -8,6 +17,28 @@ h2 {
   color: #0c0d15;
   padding-top: 20px;
 }
+p {
+  max-width: 100%;
+  font-family: "Marcellus", serif;
+  font-size: 18pt;
+  color: #56565f;
+  text-align: left;
+  text-align: justify;
+}
+a {
+  font-family: "Marcellus", serif;
+  font-size: 18pt;
+  font-weight: bold;
+  text-align: center;
+  line-height: 27px;
+  color: #0c0d15;
+}
+.button {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+  border-radius: 10px;
+}
 .about-project {
   margin-top: 50px;
   font-size: 14pt;
@@ -17,6 +48,23 @@ h2 {
   color: #56565f;
   text-align: justify;
   max-width: 360px;
+}
+video {
+  margin-bottom: 50px;
+  max-height: 75%;
+  margin-left: 100px;
+}
+.launch-button {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.content {
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .content-project {
