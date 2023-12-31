@@ -1,109 +1,47 @@
 h1 {
   font-family: "Tenor Sans", sans-serif;
-
-  font-size: 48pt;
-
-  text-align: right;
-
+  font-size: 36pt;
   color: #0c0d15;
 }
 h2 {
-  font-family: "Tenor Sans", sans-serif;
-  margin-top: 50px;
-  font-size: 36pt;
-
-  text-align: left;
-
+  font-family: "Marcellus", serif;
+  font-size: 24pt;
   color: #0c0d15;
-  padding-top: 20px;
 }
 p {
-  max-width: 100%;
   font-family: "Marcellus", serif;
   font-size: 18pt;
   color: #56565f;
-  text-align: left;
-  text-align: justify;
-}
-a {
-  font-family: "Marcellus", serif;
-  font-size: 18pt;
-  font-weight: bold;
-  text-align: center;
-  line-height: 27px;
-  color: #0c0d15;
-}
-.button {
-  display: block;
-  margin: 0 auto;
-  max-width: 150px;
-  border-radius: 10px;
-}
-.about-project {
-  margin-top: 50px;
-  font-size: 14pt;
-
-  font-family: "Marcellus", serif;
-
-  color: #56565f;
-  text-align: justify;
-  max-width: 360px;
-}
-video {
-  margin-bottom: 50px;
-  max-height: 75%;
-  margin-left: 100px;
 }
 .launch-button {
-  display: block;
-  margin: 0 auto;
-  max-width: 150px;
-  border-radius: 10px;
-  margin-top: 50px;
+  font-family: "Marcellus", serif;
+  font-size: 18pt;
+  color: #0c0d15;
 }
 
-.content {
-  margin-left: 200px;
-  margin-right: 200px;
-}
-
-.content-project {
-  max-width: 100px;
+video {
+  max-height: 75%;
 }
 .footer {
   background-color: #dfdfec;
   border-radius: 25px;
-  padding: 100px;
+}
 
-  padding-left: 200px;
-  margin-top: 200px;
-
-  margin-left: 100px;
-  margin-right: 100px;
-}
-.button-footer {
-  margin-top: 25px;
-  margin-left: 50px;
-}
-h3 {
-  text-align: left;
-}
-.title-footer {
-  text-align: left;
-}
-.email {
-  margin-top: 100px;
-  margin-left: 250px;
-  text-align: center;
-}
 .social-media {
-  margin-top: 50px;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 18pt;
+
   display: flex;
   justify-content: space-evenly;
   max-width: 50%;
-  margin-left: 175px;
 }
-footer {
-  margin-top: 100px;
-  margin-left: 150px;
+
+.title-footer {
+  font-size: 36pt;
+  text-align: left;
+}
+
+.email {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 18pt;
 }

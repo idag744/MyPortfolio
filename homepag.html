@@ -34,66 +34,53 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="homepag.html">Aida Garfami</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="work.html"
-              >Work<span class="sr-only">(current)</span></a
-            >
+    <nav class="navbar d-flex justify-content-end navbar-light bg-light">
+      <div class="container">
+        <h3>AidaGarfami</h3>
+        <ul>
+          <li class="active">
+            <a href="homepag.html"> Home </a>
           </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+          <li>
+            <a href="work.html"> Work </a>
+          </li>
+          <li>
+            <a href="contact.html"> Contact </a>
           </li>
         </ul>
       </div>
     </nav>
-
-    <div class="hero">
+    <div class="container p-5">
       <div class="row">
         <div class="col-sm-6">
           <img
             src="E:\AidaCodes\MyPortfolio\images\photo-professional-2.png"
             alt="linkedIn-photo"
-            class="img-fluid rounded-4"
+            class="img-fluid rounded-4 linkedIn-photo"
             style="max-height: 90%"
           />
         </div>
 
-        <div class="col-sm-6 mt-2">
-          <h1 class="text-center">Aida Garfami</h1>
+        <div class="col-lg-6 mt-2">
+          <h1 class="text-center">AidaGarfami</h1>
 
-          <p class="text-center mt-5">
+          <p class="text-center">
             Iranian UX designer and Front-end developer based in Italy
           </p>
-
-          <a
-            class="contact-button btn btn-primary mt-5"
-            href="contact.html"
-            id="contact"
-            >Contact Me</a
-          >
+          <div class="d-flex justify-content-center">
+            <a
+              class="contact-button btn btn-primary mt-5"
+              href="contact.html"
+              id="contact"
+              >Contact Me</a
+            >
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="content">
       <div class="row">
-        <div class="col-sm-6">
-          <h2>Project 01</h2>
+        <div class="col-lg-6">
+          <h2>iTutor</h2>
           <p class="about-project">
             iTutor was done through a TeamWork in Apple Developer Academy. My
             team-mates and I went through a journey of Market Research, Desgin,
@@ -101,39 +88,41 @@
             language and despite the strict timing of 1 month, we are happy
             about the result.
           </p>
-
-          <a
-            class="launch-button btn btn-primary"
-            href="work.html"
-            id="projectOne"
-            >View iTutor</a
-          >
+          <div class="d-flex justify-content-center">
+            <a
+              class="launch-button btn btn-primary"
+              href="work.html"
+              id="projectOne"
+              >View Project</a
+            >
+          </div>
         </div>
 
-        <div class="col-sm-6">
-          <video width="360px" controls id="myVideo">
-            <source
-              src="E:\AidaCodes\MyPortfolio\videos\prototype_zXWK2Wuv (1).mp4"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
+        <div class="col-lg-6">
+          <div class="d-flex justify-content-center">
+            <video width="250px" controls id="myVideo">
+              <source
+                src="E:\AidaCodes\MyPortfolio\videos\prototype_zXWK2Wuv (1).mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="content">
       <div class="row">
-        <div class="col-sm-6">
-          <img
-            src="E:\AidaCodes\MyPortfolio\images\Start.png"
-            alt="easy-move-image"
-            class="img-fluid rounded-5"
-            style="max-height: 75%"
-          />
+        <div class="col-lg-6">
+          <div style="max-width: 60%">
+            <img
+              src="E:\AidaCodes\MyPortfolio\images\Start.png"
+              alt="easy-move-image"
+              class="img-fluid"
+            />
+          </div>
         </div>
-        <div class="col-sm-6">
-          <h2 class="text-center">Project 02</h2>
+        <div class="col-lg-6">
+          <h2>Easy Move</h2>
           <p class="about-project">
             EasyMove is an App that my team-mates and I designed for students
             who need help with carrying their stuff in moving from one house to
@@ -141,21 +130,20 @@
             hire a helper who has owns a viehcle such as a car for carrying and
             installation of the stuff.
           </p>
-
-          <a
-            class="launch-button btn btn-primary"
-            href="work.html"
-            id="projectTwo"
-            >View EasyMove</a
-          >
+          <div class="d-flex justify-content-center">
+            <a
+              class="launch-button btn btn-primary"
+              href="work.html"
+              id="projectTwo"
+              >View Project</a
+            >
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="content">
       <div class="row">
-        <div class="col-sm-6">
-          <h2 class="title-project3">Project 03</h2>
+        <div class="col-lg-6">
+          <h2 class="title-project3">Weather Forcast</h2>
           <p class="about-project">
             I built a Vanilla JavaScript weather app in SheCodes Plus, an
             advanced 8-week JavaScript coding workshop. Building upon my
@@ -164,43 +152,45 @@
             JavaScript. I combined all of these skills to create a
             fully-functioning weather app.
           </p>
-
-          <a
-            class="launch-button btn btn-primary"
-            href="work.html"
-            id="projectThree"
-            >View WeatherApp</a
-          >
+          <div class="d-flex justify-content-center">
+            <a
+              class="launch-button btn btn-primary"
+              href="work.html"
+              id="projectThree"
+              >View Project</a
+            >
+          </div>
         </div>
 
-        <div class="col-sm-6">
-          <img
-            style="max-width: 120%"
-            src="E:\AidaCodes\MyPortfolio\images\wheather-app-imgpng.PNG"
-            alt=""
-          />
+        <div class="col-lg-6">
+          <div class="d-flex justify-content-center mt-5">
+            <img
+              style="max-width: 100%"
+              src="E:\AidaCodes\MyPortfolio\images\wheather-app-imgpng.PNG"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="footer">
-      <div class="row">
-        <div class="col-sm-6">
-          <h1 class="title-footer">Work Inquiry</h1>
-          <h3>Let's work together</h3>
+    <footer>
+      <div class="contact-box m-5 d-none d-md-flex justify-content-between">
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work together</p>
         </div>
-
-        <div class="col-sm-6">
-          <a class="btn btn-primary button-footer" href="contact.html"
-            >Contact Me</a
-          >
+        <div>
+          <a href="contact.html" class="btn btn-primary">Contact Me</a>
         </div>
       </div>
 
-      <div class="row">
-        <a class="email" href="">a.garfami@studenti.unina.it</a>
+      <div>
+        <a class="email" href="mailto:a.garfami@studenti.unina.it"
+          >a.garfami@studenti.unina.it</a
+        >
       </div>
-      <div class="row social-media">
+      <div class="social-media d-flex justify-content-center">
         <a href="https://github.com/idag744" target="_blank" title="instagram">
           <i class="fab fa-github"></i>
         </a>
@@ -215,11 +205,6 @@
           <i class="fab fa-twitter"> </i>
         </a>
       </div>
-
-      <footer>
-        ✌️ This website was coded by Aida Garfami, and is
-        <a href="https://github.com/idag744">open-sourced</a>
-      </footer>
-    </div>
+    </footer>
   </body>
 </html>
